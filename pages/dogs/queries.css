@@ -1,0 +1,17 @@
+/*********************************/
+/* BELOW 1104px */
+/*********************************/
+
+@media (max-width: 69em) {
+  .header {
+    height: 5rem;
+    background-color: yellow;
+  }
+  .hero {
+    max-width: 120rem;
+  }
+
+  .logo {
+    width: 20%;
+  }
+}
