@@ -132,7 +132,7 @@
   }
 
   .address-col {
-    display: none;
+    display: flex;
   }
 }
 
