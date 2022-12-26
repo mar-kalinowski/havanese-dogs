@@ -21,5 +21,38 @@ links.forEach(function (link) {
         top: 0,
         behavior: "smooth",
       });
+
+    if (href !== "#" && href.startsWith("#")) {
+      const sectionEl = document.querySelector(href);
+      sectionEl.scrollIntoView({ behavior: "smooth" });
+    }
+
+    if (link.classList.contains("main-nav-link"))
+      headerEl.classList.toggle("nav-open");
+    else {
+      return;
+    }
   });
 }); */
+
+const sectionHeroEl = document.querySelector(".section-hero");
+const galleryEl = document.querySelector(".gallery");
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    if (ent.isIntersecting === false) {
+      document.body.classList.add("sticky");
+    }
+
+    if (ent.isIntersecting) {
+      document.body.classList.remove("sticky");
+    }
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: "-96px",
+  }
+);
+obs.observe(sectionHeroEl);
+// obs.observe(galleryEl);
