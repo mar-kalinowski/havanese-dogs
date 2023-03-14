@@ -117,11 +117,34 @@ body {
   padding: 0 4.8rem;
 }
 
+.logo-container {
+  display: flex;
+  max-width: 60rem;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.header-link {
+  display: inline-block;
+  max-width: fit-content;
+  padding: 0;
+  margin: 0;
+}
+
 .logo {
   display: block;
-  width: 20%;
+  width: 30%;
   border-radius: 50%;
   padding: 10px;
+}
+
+.logo-zkwp {
+  width: 70%;
+  padding: 10px;
+}
+
+.logo-fci {
+  width: 40%;
 }
 
 /*********************************/
