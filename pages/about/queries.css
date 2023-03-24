@@ -1,10 +1,29 @@
 /*********************************/
+/* BELOW 1264px */
+/*********************************/
+
+@media (max-width: 79em) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .photo {
+    max-width: 8rem;
+  }
+
+  .photo > img {
+    max-width: 24rem;
+  }
+}
+
+/*********************************/
 /* BELOW 1104px */
 /*********************************/
 
 @media (max-width: 69em) {
   .logo {
-    width: 30%;
+    width: 40%;
   }
 
   .main-nav-list {
@@ -16,27 +35,6 @@
     font-size: 1.6rem;
     white-space: nowrap;
   }
-
-  .section-hero {
-    padding-top: 2.4rem;
-  }
-
-  .hero {
-    max-width: 120rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    gap: 1.6rem;
-  }
-
-  .hero-text-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 /*********************************/
@@ -47,7 +45,6 @@
   .logo {
     width: 30%;
   }
-
   .btn-mobile-nav {
     display: block;
   }
@@ -96,29 +93,30 @@
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
+
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .about h1 {
+    font-size: 6rem;
+  }
+
+  .photo > img {
+    display: none;
+  }
 }
+
+/*********************************/
+/* MOBILE BELOW 520px */
+/*********************************/
 
 @media (max-width: 32.5em) {
   .logo {
-    width: 60%;
+    width: 50%;
   }
-
-  .heading-primary {
-    font-size: 3.6rem;
-  }
-
-  .dog {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 1.6rem;
-  }
-
-  .dog-prim {
-    flex-direction: column;
-  }
-
-  .dog-name {
-    font-size: 2.4rem;
+  .about h1 {
+    font-size: 4rem;
   }
 
   .footer-grid {
@@ -152,7 +150,4 @@
     padding-bottom: 2.4rem;
     margin-bottom: 2.4rem;
   }
-}
-
-@media (max-width: 30em) {
 }
