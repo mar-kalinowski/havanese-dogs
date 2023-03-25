@@ -2,8 +2,8 @@
 /* BELOW 1264px */
 /*********************************/
 
-@media (max-width: 79em) {
-}
+/* @media (max-width: 79em) {
+} */
 
 /*********************************/
 /* BELOW 1104px */
@@ -22,27 +22,6 @@
   .main-nav-link:visited {
     font-size: 1.6rem;
     white-space: nowrap;
-  }
-
-  .section-hero {
-    padding-top: 2.4rem;
-  }
-
-  .hero {
-    max-width: 120rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    gap: 1.6rem;
-  }
-
-  .hero-text-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
 
@@ -68,7 +47,7 @@
   .slide > img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
   }
 }
 
@@ -82,6 +61,7 @@
   }
   .btn-mobile-nav {
     display: block;
+    z-index: 15;
   }
 
   .main-nav {
@@ -108,7 +88,7 @@
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
-    z-index: 9999;
+    z-index: 15;
   }
 
   .main-nav-list {
@@ -139,6 +119,13 @@
   .logo {
     width: 60%;
   }
+
+  .logo-zkwp {
+    width: 90%;
+    margin-left: -8rem;
+    /* padding: 10px; */
+  }
+
   .slider {
     max-width: 50rem;
     height: 35rem;
