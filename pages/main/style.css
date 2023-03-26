@@ -139,8 +139,8 @@ body {
 }
 
 .logo-zkwp {
-  width: 70%;
-  padding: 10px;
+  width: 60%;
+  /* padding: 10px; */
 }
 
 .logo-fci {
@@ -323,6 +323,11 @@ body {
 }
 
 .prim-modal {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
   position: absolute;
   top: 50%;
   left: 50%;
