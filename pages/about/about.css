@@ -232,16 +232,17 @@ body {
 /*********************************/
 
 .about {
-  max-width: 130rem;
+  max-width: 140rem;
   margin: 2rem auto;
   padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr 3fr;
+  column-gap: 8rem;
   align-items: center;
 }
 
 .photo {
-  max-width: 36rem;
+  /* max-width: 36rem; */
   align-self: start;
   justify-content: start;
   margin-top: 2rem;
