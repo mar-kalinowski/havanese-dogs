@@ -24,7 +24,7 @@
   .hero {
     max-width: 120rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     justify-items: center;
     align-items: center;
