@@ -232,27 +232,29 @@ body {
 /*********************************/
 
 .about {
+  /* position: relative; */
   max-width: 140rem;
+  height: 181rem;
   margin: 2rem auto;
   padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr 3fr;
   column-gap: 8rem;
-  align-items: center;
+  /* align-items: center; */
 }
 
-.photo {
-  /* max-width: 36rem; */
+/* .photo {
   align-self: start;
   justify-content: start;
   margin-top: 2rem;
   border-radius: 5px;
-  position: static;
-}
+} */
 
-.photo > img {
+.sticky {
+  display: flex;
   max-width: 36rem;
-  position: fixed;
+  position: sticky;
+  /* position: -webkit-sticky; */
   top: 12rem;
   object-fit: cover;
 }
