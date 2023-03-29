@@ -232,9 +232,9 @@ body {
 /*********************************/
 
 .about {
-  /* position: relative; */
+  position: relative;
   max-width: 140rem;
-  height: 181rem;
+  /* height: 181rem; */
   margin: 2rem auto;
   padding: 0 3.2rem;
   display: grid;
@@ -250,11 +250,11 @@ body {
   border-radius: 5px;
 } */
 
-.sticky {
+.sticky-img {
   display: flex;
   max-width: 36rem;
   position: sticky;
-  /* position: -webkit-sticky; */
+  position: -webkit-sticky;
   top: 12rem;
   object-fit: cover;
 }
