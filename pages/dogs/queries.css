@@ -98,6 +98,10 @@
   }
 }
 
+/*********************************/
+/* MOBILE BELOW 520px */
+/*********************************/
+
 @media (max-width: 32.5em) {
   .logo {
     width: 60%;
@@ -125,6 +129,10 @@
 
   .dog-name {
     font-size: 2.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
   }
 
   .footer-grid {

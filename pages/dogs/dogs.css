@@ -235,7 +235,7 @@ body {
   max-width: 130rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
   margin: 0 auto;
