@@ -258,7 +258,29 @@ body {
   position: -webkit-sticky;
   top: 12rem;
   object-fit: cover;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  transition: all 0.3s;
 }
+
+.sticky-img:hover {
+  transform: scale(1.1);
+}
+
+/* .hero-img-box {
+  overflow: hidden;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.hero-img {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.hero-img:hover {
+  transform: scale(1.1);
+} */
 
 .text {
   display: grid;
