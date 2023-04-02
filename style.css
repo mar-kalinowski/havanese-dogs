@@ -140,12 +140,12 @@ body {
 
 .logo-zkwp {
   width: 60%;
-  /* padding: 10px; */
+  margin-left: -100%;
 }
 
-.logo-fci {
+/* .logo-fci {
   width: 40%;
-}
+} */
 
 /*********************************/
 /* NAVIGATION */

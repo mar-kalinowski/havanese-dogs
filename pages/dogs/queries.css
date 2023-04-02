@@ -4,7 +4,7 @@
 
 @media (max-width: 69em) {
   .logo {
-    width: 30%;
+    width: 40%;
   }
 
   .main-nav-list {
@@ -40,12 +40,41 @@
 }
 
 /*********************************/
+/* BELOW 992px */
+/*********************************/
+
+@media (max-width: 62em) {
+  .logo {
+    width: 40%;
+  }
+}
+
+/*********************************/
+/* BELOW 880px */
+/*********************************/
+
+@media (max-width: 55em) {
+  .logo {
+    width: 60%;
+  }
+
+  .logo-zkwp {
+    width: 90%;
+    margin-left: -80%;
+  }
+}
+
+/*********************************/
 /* MOBILE BELOW 768px */
 /*********************************/
 
 @media (max-width: 48em) {
   .logo {
     width: 30%;
+  }
+
+  .logo-zkwp {
+    width: 50%;
   }
 
   .btn-mobile-nav {
@@ -104,7 +133,7 @@
 
 @media (max-width: 32.5em) {
   .logo {
-    width: 60%;
+    width: 50%;
   }
 
   .logo-zkwp {

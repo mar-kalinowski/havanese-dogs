@@ -38,12 +38,38 @@
 }
 
 /*********************************/
+/* BELOW 880px */
+/*********************************/
+
+@media (max-width: 55em) {
+  .logo {
+    width: 60%;
+  }
+
+  .logo-zkwp {
+    width: 100%;
+  }
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .sticky-img {
+    display: none;
+  }
+}
+
+/*********************************/
 /* MOBILE BELOW 768px */
 /*********************************/
 
 @media (max-width: 48em) {
   .logo {
     width: 30%;
+  }
+
+  .logo-zkwp {
+    width: 70%;
+    /* margin-left: -90%; */
   }
   .btn-mobile-nav {
     display: block;
@@ -120,7 +146,7 @@
 
   .logo-zkwp {
     width: 90%;
-    margin-left: -8rem;
+    /* margin-left: -8rem; */
     /* padding: 10px; */
   }
 
