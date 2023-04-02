@@ -140,7 +140,7 @@ body {
 
 .logo-zkwp {
   width: 70%;
-  padding: 10px;
+  margin-left: -100%;
 }
 
 .logo-fci {

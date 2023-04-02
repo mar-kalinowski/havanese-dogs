@@ -59,6 +59,10 @@
   .logo {
     width: 30%;
   }
+
+  .logo-zkwp {
+    width: 60%;
+  }
   .btn-mobile-nav {
     display: block;
     z-index: 15;
@@ -117,13 +121,12 @@
 
 @media (max-width: 32.5em) {
   .logo {
-    width: 60%;
+    width: 50%;
   }
 
   .logo-zkwp {
-    width: 90%;
-    margin-left: -8rem;
-    /* padding: 10px; */
+    width: 70%;
+    margin-left: -80%;
   }
 
   .slider {
